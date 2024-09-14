@@ -50,7 +50,7 @@
 
 A task that provides templates for running basic commands with the Termux:Tasker plugin. This task requires Termux:Tasker version `>= 0.5`. Tasker must be granted `com.termux.permission.RUN_COMMAND` permission. The `termux_tasker_basic_bash_test` and `termux_tasker_basic_python_test` scripts must be installed at `~/.termux/tasker/termux_tasker_basic_bash_test` and `~/.termux/tasker/termux_tasker_basic_python_test` respectively. The Template 4 will also require the `allow-external-apps` property to be set to `true` in `~/.termux/termux.properties` file since the `$PREFIX/bin/bash` absolute path is outside the `~/.termux/tasker/` directory, otherwise its plugin action will fail. For android `>= 10`, Termux must also be granted `Draw Over Apps` permissions so that foreground commands automatically start executing without the user having to manually click the `Termux` notification in the status bar dropdown notifications list for the commands to start.
 
-Check [Termux:Tasker Github](https://github.com/termux/termux-tasker) for more details on plugin configuration and variables and how to handle them.
+Check [Termux:Tasker GitHub](https://github.com/termux/termux-tasker) for more details on plugin configuration and variables and how to handle them.
 
 
 Template 1 runs the `~/.termux/tasker/termux_tasker_basic_bash_test` `bash` script in the background and sends it 2 simple constant string args and gets the result back in `%stdout`. The args sent do not contain any quotes or special characters and can simply be sent surrounded with double quotes.
@@ -101,7 +101,7 @@ Task Name: Termux Tasker Plugin Basic Templates
 Actions:
     <A task that provides templates for running basic commands with the Termux:Tasker plugin. This task requires Termux:Tasker version `>= 0.5`. Tasker must be granted `com.termux.permission.RUN_COMMAND` permission. The `termux_tasker_basic_bash_test` and `termux_tasker_basic_python_test` scripts must be installed at `~/.termux/tasker/termux_tasker_basic_bash_test` and `~/.termux/tasker/termux_tasker_basic_python_test` respectively. The Template 4 will also require the `allow-external-apps` property to be set to `true` in `~/.termux/termux.properties` file since the `$PREFIX/bin/bash` absolute path is outside the `~/.termux/tasker/` directory, otherwise its plugin action will fail. For android `>= 10`, Termux must also be granted `Draw Over Apps` permissions so that foreground commands automatically start executing without the user having to manually click the `Termux` notification in the status bar dropdown notifications list for the commands to start.
     
-    Check [Termux:Tasker Github](https://github.com/termux/termux-tasker) for more details on plugin configuration and variables and how to handle them.
+    Check [Termux:Tasker GitHub](https://github.com/termux/termux-tasker) for more details on plugin configuration and variables and how to handle them.
     
     
     Template 1 runs the `~/.termux/tasker/termux_tasker_basic_bash_test` `bash` script in the background and sends it 2 simple constant string args and gets the result back in `%stdout`. The args sent do not contain any quotes or special characters and can simply be sent surrounded with double quotes.
